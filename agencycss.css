@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* head start */
+#head {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#head .box{
+   color: white;
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 12rem 0;
+}
+#head .box p{
+    font-size: 30px;
+}
+#head .box h1{
+    font-size: 80px;
+}
+
+#head .box a{
+    text-decoration: none;
+    background-color: #FFC800;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 20px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+/* head end */
+
+
+/* services start */
+#services{
+    height: 70vh;
+}
+#services .box-text{
+    text-align:center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 45px auto;
+}
+#services .box-text h1{
+    font-size: 40px;
+}
+#services .box-text p{
+    color: #6C757D;
+    font-size: 16px;
+}
+#services .boxes{
+    display: flex;
+   text-align: center;
+  
+}
+#services .boxes .box i{
+    background-color: #FFC800;
+    border-radius: 50%;
+    padding: 30px 40px;
+    color: white;
+    font-size: 60px;
+}
+
+#services .boxes .box h1{
+    margin: 16px 0;
+}
+
+#services .boxes .box p{
+    color:#6C757D;  
+    
+}
+/* services end */
+
+
+/* portfolio start */
+#portfolio{
+    background-color: #f8f9fa;
+}
+#portfolio .container{
+    text-align: center;
+    padding: 40px 50px;
+}
+
+#portfolio .container .text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#portfolio .container .text h1{
+    font-size: 40px;
+}
+#portfolio .container .text p{
+    color: #6C757D;
+    font-size: 16px;
+}
+
+#portfolio  .boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .boxes .box{
+    width: 30%;
+    margin: 20px;
+    
+}
+#portfolio .boxes .box .top-box img{
+    width: 100%;
+    vertical-align: middle;
+}
+#portfolio .boxes .box .top-box{
+    position:relative;
+}
+#portfolio .boxes .box .top-box .yellow-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 200, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    opacity: 0;
+}
+#portfolio .boxes .box .top-box .yellow-box i{
+    font-size: 24px;
+    color: rgb(255,255,255);
+}
+#portfolio .boxes  .bottom-box{
+    text-align: center;
+    background-color: white;
+    padding: 24px 0;
+    box-shadow: 0 0 20px 0 black;
+}
+#portfolio .boxes .box .top-box:hover .yellow-box{
+    opacity: 1;
+}
+#portfolio .boxes  .bottom-box p{
+    color: #6C757D;
+
+}
+/* portfolio end */
+
+
+/* about start */
+#about{
+    height: 200vh;
+}
+#about .text-box{
+    text-align: center;
+    padding-top: 60px;
+}
+#about .text-box h1{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+#about .text-box p{
+    color: #6C757D;
+    font-weight: 500;
+    font-size: 20px;
+}
+#about .boxes .box{
+    width: 25%;
+    margin-top: 40px;
+}
+#about .boxes .box img{
+  border: 7px solid  #e9ecef;
+  border-radius: 50%;
+}
+#about .boxes .box h4{
+    border: 7px solid  #e9ecef;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+}
+
+
+
+/* team start */
+#team{
+    background-color: #f8f9fa;
+}
+#team .head{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px 40px;
+   
+}
+#team .head .text h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+#team .head .text p{
+    color: #6C757D;
+    margin-bottom: 45px;
+}
+
+#team  .boxes .box{
+    width: 33%;
+    text-align: center;
+}
+#team .boxes{
+    display: flex;
+    flex-wrap: wrap; 
+}
+#team .boxes .box img{
+    border-radius: 50% ;
+    border: 6px solid rgb(0,0,0,0.1);
+    width: 60%;
+
+}
+#team .boxes .box p{
+    color:#6C757D ;
+}
+#team .boxes .box i{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding:8px 10px;
+    margin-top: 10px;
+}
+#team .large-text {
+    text-align: center;
+}
+#team .large-text .text{
+    color: #6C757D;
+    padding: 40px 0;
+    font-size: 20px;
+}
+/* team end */
+
+
+/* logo start */
+#logo .boxes{
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#logo .boxes .box{
+   width: 25%;
+   text-align: center;
+}
+#logo .boxes .box img{
+   width: 60%;
+}
+/* logo end */
+
+
+/* contact start */
+#contact{
+    height: 100vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+} 
+#contact .text{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 48px;
+}
+#contact .text h1{
+    color: white;
+    font-size: 60px;
+}
+#contact .text p{
+    color: #6C757D ;
+    font-size: 20px;
+}
+#contact .boxes .boxes-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .boxes .boxes-1 .input-box-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 20px;
+}
+#contact .boxes .boxes-1 .input-box-left input{
+    padding: 20px 0;
+    margin-bottom: 16px;
+}
+#contact .boxes .boxes-1  .input-box-right input{
+    height: 94%;
+    width: 300%;
+    margin: 0 30px;
+}
+ #contact .boxes .boxes-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+#contact .boxes .boxes-2 button{
+    background-color: #FFC800;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 7px;
+    margin-top:60px;
+}
+/* contact end */
+
+
+/* website start */
+#footer{
+    height: 10vh;
+}
+#footer .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+#footer  .boxes .box{
+    width:33%;
+    text-align: center;
+}
+#footer  .boxes .box p{
+    color:#666e75;
+    font-size:16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+#footer  .boxes .box span{
+    color:#666e75;
+    font-size:16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* gap: 10px; */
+}
+#footer  .boxes .box i{
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px 25px;
+    color: white;
+}
+/* website end */
